@@ -1,0 +1,88 @@
+# PromptPad Viral Starter Template
+# This template has generated 10K+ remixes
+
+name: "The Viral Hook Generator"
+creator: "@promptpad"
+category: "marketing"
+version: "2.1"
+
+# Performance metrics (auto-updated)
+metrics:
+  uses: 45892
+  remixes: 10234
+  success_rate: 0.87
+  viral_coefficient: 2.4
+
+# The template that keeps evolving
+template: |
+  You are a {expertise} specializing in {platform}.
+  
+  Create a {content_type} that will {goal}.
+  
+  Constraints:
+  - Maximum {limit}
+  - Must include {hook_element}
+  - Tone: {voice_style}
+  
+  The key insight is: {unique_angle}
+
+# Default values (remixers often change these)
+defaults:
+  expertise: "viral content strategist"
+  platform: "social media"
+  content_type: "post"
+  goal: "get massive engagement"
+  limit: "280 characters"
+  hook_element: "surprising statistic"
+  voice_style: "conversational but authoritative"
+  unique_angle: "[your breakthrough perspective]"
+
+# Successful variations from the community
+popular_remixes:
+  startup_pitcher:
+    expertise: "venture capitalist"
+    platform: "investor meetings"
+    content_type: "one-line pitch"
+    goal: "secure funding"
+    limit: "10 seconds"
+    
+  code_documenter:
+    expertise: "senior developer"
+    platform: "GitHub"
+    content_type: "README"
+    goal: "maximize stars"
+    limit: "500 words"
+
+# Usage examples with real results
+examples:
+  - input:
+      expertise: "growth hacker"
+      platform: "Twitter"
+      content_type: "thread"
+      goal: "gain 1000 followers"
+    output: "Here's how I gained 10K followers in 30 days..."
+    result: "2.5K retweets, 8K likes"
+
+# Community learnings
+insights:
+  - "Shorter limits often produce better results"
+  - "Specific expertise beats generic roles"
+  - "Adding personality to voice_style increases engagement"
+
+# How to remix effectively
+remix_guide: |
+  1. Start by changing one variable
+  2. Test with your specific use case
+  3. Share what worked/didn't work
+  4. Create your own variation
+
+# Revenue sharing
+monetization:
+  original_creator_share: 0.1  # 10% of remix revenue
+  remix_price: "$0.10"  # Per use pricing
+  
+# Git tracking
+git:
+  commit_hash: "a1b2c3d"
+  last_updated: "2024-01-15"
+  contributors: 234

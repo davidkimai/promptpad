@@ -1,0 +1,71 @@
+name: Prompt Request
+description: Request a new prompt template for the community
+title: "[PROMPT REQUEST]: "
+labels: ["prompt-request", "community"]
+assignees:
+  - promptpad-team
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Request a New Prompt
+        
+        Have an idea for a prompt that doesn't exist yet? The community can help create it!
+        
+  - type: input
+    id: use-case
+    attributes:
+      label: What do you need this prompt for?
+      description: Describe your use case
+      placeholder: "I need to..."
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of prompt is this?
+      options:
+        - Business/Startup
+        - Creative Writing  
+        - Code/Technical
+        - Education/Learning
+        - Productivity
+        - Analysis/Research
+        - Other
+    validations:
+      required: true
+      
+  - type: textarea
+    id: example-output
+    attributes:
+      label: Example Output
+      description: What should the ideal output look like?
+      placeholder: |
+        The prompt should generate something like:
+        "..."
+        
+  - type: input
+    id: bounty
+    attributes:
+      label: Bounty (optional)
+      description: Offering credits for best implementation?
+      placeholder: "500 PromptPad credits"
+      
+  - type: checkboxes
+    id: collaboration
+    attributes:
+      label: Collaboration
+      options:
+        - label: I'm willing to test variations
+        - label: I'll share results publicly
+        - label: I can help refine the prompt
+        
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other details?
+      placeholder: "Similar to X but with Y..."

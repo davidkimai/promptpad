@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/promptpad-logo.svg" alt="PromptPad" width="200"/>
 
-![promptpad](https://github.com/user-attachments/assets/b4378d54-b009-44b0-9c0b-70bdaa7d5cf5)
+![promptpad](https://github.com/user-attachments/assets/03f1c419-2fef-478e-8632-ca96c3bade90)
 
   **The Creator Economy for AI Interaction**
   

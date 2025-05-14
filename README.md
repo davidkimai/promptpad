@@ -2,7 +2,9 @@
 ### Inspired by Creators: [`Alexandr Wang From Scale AI`](https://scale.com/) | [`Brian Chesky From Airbnb`](https://news.airbnb.com/about-us/leadership/brian-chesky/) | [`Shou Zi Crew From Tiktok`](https://www.tiktok.com/@shou.time?lang=en)
 <div align="center">
   <img src="assets/promptpad-logo.svg" alt="PromptPad" width="200"/>
-  
+
+![promptpad-modified](https://github.com/user-attachments/assets/529bf3ac-124b-46cb-8b5a-ec346e584ee4)
+
   **The Creator Economy for AI Interaction**
   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
